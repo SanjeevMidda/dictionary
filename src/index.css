@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dictionaryArea{
+  width: 40vw;
+}
+
+input{
+  padding: 20px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  color: grey;
+  text-align: center;
+}
+
+.showWord{
+  opacity:1;
+}
+
+.dictionaryArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
